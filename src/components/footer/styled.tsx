@@ -4,4 +4,5 @@ export const StyledFooter = styled.footer`
   background-color: var(--primary-footer);
   color: black;
   text-align: center;
+  z-index: -5;
 `

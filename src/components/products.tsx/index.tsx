@@ -2,16 +2,16 @@ import { ProductCart, ProductInterface } from "../../interfaces/product"
 import { StyledProduct } from "./styled"
 import { useDispatch } from "react-redux"
 import { addToCart } from "../../features/counter/cartSlice"
-import { toast } from "react-toastify"
 import { useSelector } from "react-redux"
 import { RootState } from "../../app/store"
+import { toast } from "react-toastify"
+
 
 export default function Product(product: ProductInterface) {
     const items = useSelector((state: RootState) => state.cart.items)
     const { photo, name, price, description } = product
     const priceFiltered = price.toString().slice(0, -3)
     const dispatch = useDispatch();
-
 
     const handleAddToCart = (item: ProductCart) => {
         let message = 'Produto adicionado ao carrinho.'

@@ -8,6 +8,7 @@ export default createGlobalStyle`
     outline: 0;
 }
 
+
 :root {
     --primary-blue: #0F52BA;
     --primary-background: #E5E5E5;
@@ -16,6 +17,8 @@ export default createGlobalStyle`
     --secondary-grey: #373737;
     --border-grey: #BFBFBF;
     --primary-footer: #EEEEEE;
+    --toastify-color-progress-light: #0F52BA;
+
 }
 
 body {
