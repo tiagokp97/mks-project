@@ -21,10 +21,7 @@ export default createGlobalStyle`
 body {
     background: var(--primary-background);
     color: black;
-
-
 }
-
 
 body, input, button, p, h1 {
     font-family: 'Montserrat', sans-serif;
