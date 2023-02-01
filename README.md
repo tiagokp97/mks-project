@@ -50,7 +50,7 @@ Tecnologias usadas no projeto.
 ![Filter Buttons](https://github.com/tiagokp97/mks-project/blob/master/public/project-images/filtros-api.png)
 
 
-### 4 - Ou a versão mobile.
+### 4 - Na versão mobile.
 
 ![mobile](https://github.com/tiagokp97/mks-project/blob/master/public/project-images/Layout-mobile.png)
 ![mobile](https://github.com/tiagokp97/mks-project/blob/master/public/project-images/carrinho-mobile.png)
