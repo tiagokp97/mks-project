@@ -67,11 +67,11 @@ As principais features da aplicação são:
 
 
 ## Links
-  - Deploy on Heroku: https://lucas-dev.com/
+  - Deploy no Vercel: https://mks-project.vercel.app/
   - Repositório: https://github.com/tiagokp97/mks-project
-    - In case of sensitive bugs like security vulnerabilities, please contact
-      tiago.pesch@gmail.com directly instead of using issue tracker. We value your effort
-      to improve the security and privacy of this project!
+    - Em caso de bugs sensíveis, como vulnerabilidades de segurança, entre em contato
+      tiago.pesch@gmail.com diretamente em vez de usar o rastreador de problemas. Valorizamos o seu esforço
+      para melhorar a segurança e privacidade deste projeto!
 
   ## Versioning
 
