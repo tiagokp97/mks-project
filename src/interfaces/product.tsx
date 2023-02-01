@@ -1,12 +1,3 @@
-export interface ProductInterface {
-    id: number,
-    name: string,
-    brand: string,
-    description: string,
-    price: number,
-    photo: string
-}
-
 export interface ProductCart {
     id: number,
     name: string,
@@ -14,6 +5,11 @@ export interface ProductCart {
     quantity: number,
     price: number
 }
+
+export interface ProductInterface extends ProductCart {
+    brand: string,
+}
+
 
 export interface QueryInterface {
     page: string,
