@@ -59,7 +59,7 @@ export default function ProductsList() {
             <StyledFilter>
                 <button onClick={() => handleIncrement()}>Próxima página</button>
                 <button onClick={() => handleDecrement()}>Voltar página</button>
-                <button onClick={() => handleASC()}>{asc ? "Maior para o Menor" : "Menor para o maior"}</button>
+                <button onClick={() => handleASC()}>{asc ? "Maior para o menor" : "Menor para o maior"}</button>
 
             </StyledFilter>
             <StyledList>
